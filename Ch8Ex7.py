@@ -57,11 +57,4 @@ Type "help", "copyright", "credits" or "license()" for more information.
 				count+= 1
 	return count
 
->>> main()
-Traceback (most recent call last):
-  File "<pyshell#56>", line 1, in <module>
-    main()
-  File "<pyshell#22>", line 2, in main
-    file_variable = open("text.txt" , "r")
-FileNotFoundError: [Errno 2] No such file or directory: 'text.txt'
 >>> 
